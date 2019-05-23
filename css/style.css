@@ -1,0 +1,17 @@
+body {
+  color: #1d1d25;
+  font-family: 'Raleway';
+}
+
+a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #1d1d25;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #60607b;
+}
+/*# sourceMappingURL=style.css.map */
