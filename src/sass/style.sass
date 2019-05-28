@@ -1,31 +1,14 @@
-@font-face
-    font-family: "Raleway-Medium"
-    src: url("../fonts/Raleway-Medium.ttf")
-@font-face
-    font-family: "Raleway-Regular"
-    src: url("../fonts/Raleway-Regular.ttf")
-@font-face
-    font-family: "Raleway-Bold_0"
-    src: url("../fonts/Raleway-Bold_0.ttf")
-@font-face
-    font-family: "Raleway-SemiBold_0"
-    src: url("../fonts/Raleway-SemiBold_0.ttf")
+@import 'fonts'
 
 $main-color: #1d1d25
 $light-color: lighten(#1d1d25, 30%)
 
-
-
 body
   color: $main-color
-  font:
-    family: "Raleway-Medium"
-    size: 16px
-    weight: 400
+  font-family: 'Raleway'
 
 .navbar-link
   font-size: 20px
-  font-weight: 400
   color: #1d1d25
   text-decoration: none
   cursor: pointer
@@ -86,12 +69,12 @@ img
 
 /*footer*/
 
-footer
+.footer
   background-color: #363636
   color: #ffffff
   padding-top: 47px
 
-&-link
-  color: #ffffff
+  &-link
+    color: #ffffff
 
  
